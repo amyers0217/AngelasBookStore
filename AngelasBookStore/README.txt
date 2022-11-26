@@ -242,3 +242,7 @@
 	- I also know I made the Cover Type Controller but it is not in the project today...
 	- Will have to continue from that step
 	- Everything is working like it should up until this point!
+
+- Added the CoverTypeController again as well as the Index and Upsert to the Views/CoverType folder
+- On the Create Cover Type page there is a random } at the bottom... maybe something in the coverType.js file? Will investigate
+	- There was an extra } at the end of the @section Scripts in the Upsert.cshtml file

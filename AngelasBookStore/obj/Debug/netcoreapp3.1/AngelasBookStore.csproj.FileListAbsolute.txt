@@ -918,6 +918,8 @@ C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBookStore\obj\Debug\netcor
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBookStore\obj\Debug\netcoreapp3.1\AngelasBookStore.RazorCoreGenerate.cache
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBookStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBookStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Upsert.cshtml.g.cs
+C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBookStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CoverType\Index.cshtml.g.cs
+C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBookStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CoverType\Upsert.cshtml.g.cs
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBookStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBookStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBookStore\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
