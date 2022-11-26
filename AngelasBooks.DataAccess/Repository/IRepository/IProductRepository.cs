@@ -8,6 +8,6 @@ namespace AngelasBooks.DataAccess.Repository.IRepository
 {
     public interface IProductRepository : IRepository<Product>
     {
-        void Update(ProductRepository product);
+        void Update(Product product);
     }
 }
