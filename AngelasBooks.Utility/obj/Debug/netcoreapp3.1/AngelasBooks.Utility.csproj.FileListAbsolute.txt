@@ -1,0 +1,9 @@
+C:\Users\The Rig\source\repos\AngelasBookStore-BKU\AngelasBooks.Utility\bin\Debug\netcoreapp3.1\AngelasBooks.Utility.deps.json
+C:\Users\The Rig\source\repos\AngelasBookStore-BKU\AngelasBooks.Utility\bin\Debug\netcoreapp3.1\AngelasBooks.Utility.dll
+C:\Users\The Rig\source\repos\AngelasBookStore-BKU\AngelasBooks.Utility\bin\Debug\netcoreapp3.1\AngelasBooks.Utility.pdb
+C:\Users\The Rig\source\repos\AngelasBookStore-BKU\AngelasBooks.Utility\obj\Debug\netcoreapp3.1\AngelasBooks.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The Rig\source\repos\AngelasBookStore-BKU\AngelasBooks.Utility\obj\Debug\netcoreapp3.1\AngelasBooks.Utility.AssemblyInfoInputs.cache
+C:\Users\The Rig\source\repos\AngelasBookStore-BKU\AngelasBooks.Utility\obj\Debug\netcoreapp3.1\AngelasBooks.Utility.AssemblyInfo.cs
+C:\Users\The Rig\source\repos\AngelasBookStore-BKU\AngelasBooks.Utility\obj\Debug\netcoreapp3.1\AngelasBooks.Utility.csproj.CoreCompileInputs.cache
+C:\Users\The Rig\source\repos\AngelasBookStore-BKU\AngelasBooks.Utility\obj\Debug\netcoreapp3.1\AngelasBooks.Utility.dll
+C:\Users\The Rig\source\repos\AngelasBookStore-BKU\AngelasBooks.Utility\obj\Debug\netcoreapp3.1\AngelasBooks.Utility.pdb
