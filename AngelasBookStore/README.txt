@@ -246,3 +246,7 @@
 - Added the CoverTypeController again as well as the Index and Upsert to the Views/CoverType folder
 - On the Create Cover Type page there is a random } at the bottom... maybe something in the coverType.js file? Will investigate
 	- There was an extra } at the end of the @section Scripts in the Upsert.cshtml file
+
+- Added the Product class and the migration to the database
+	- Migration name 20221126183445_AddProductToDb.cs
+- Added productRepository class and IProductRepository interface and the appropriate code
