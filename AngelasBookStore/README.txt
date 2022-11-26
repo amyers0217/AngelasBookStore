@@ -235,3 +235,10 @@
 - The database was able to be updated
 - I was also able to see the updated database in the SQL Server Object Explorer
 - Build is successful up until adding the IUnitOfWork interface
+
+// 2022-11-26 12:58PM
+- I could be wrong but it looks like there could have been some things missing from the README and Project between 3:00PM and 5:00PM 2022-11-25
+	- I was having issues with GitHub commits
+	- I also know I made the Cover Type Controller but it is not in the project today...
+	- Will have to continue from that step
+	- Everything is working like it should up until this point!
