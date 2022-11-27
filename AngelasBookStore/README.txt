@@ -279,3 +279,11 @@
 	- Hardcover
 	- Paperback
 	- But they still do not show up in the list when adding a new product...
+
+3:38PM
+- I don't think the migration for AddCoverTypeToDb was created properly
+- I don't have all of the same information in the file like I do with AddCategoryToDb or the provided repository
+	- I am hoping I can add the migration without causing errors to the rest of the application?
+	- Will ask Andrew in class tomorrow
+- I added two categories to the Category List but they are not showing in the web app
+- The categories I added to Category List are also being displayed under Cover Type... not sure why this is happening?
