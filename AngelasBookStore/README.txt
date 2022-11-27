@@ -250,3 +250,17 @@
 - Added the Product class and the migration to the database
 	- Migration name 20221126183445_AddProductToDb.cs
 - Added productRepository class and IProductRepository interface and the appropriate code
+
+// 2022-11-27 @2:03PM
+- Started working on Assignment 2 where I finished off yesterday
+- Finished iup Part 3 Section 2
+	- Everything is working up intill this point
+- Added the Index.cshtml with appropriate code to the Product folder in Areas/Admin/Views
+- There were a few "errors" I noticed when adding the Product Index so I went through and fixed those
+	- Fixed some of the code that said Category or Create New Category to reflect Product (this was because we just copied the Index code from Category to the Product Index)
+		- Made sure to check the CoverType Index and Upsert as well
+- Added the Upsert.cshtml and used tiny.cloud to add a textbox area to the Create New Product page
+- The Product page loads correctly and everything is working
+
+- I changed how the Home Index page looks as well
+	- Removed the "Learn More" link and added some more info

@@ -52,10 +52,29 @@ namespace AngelasBookStore.Areas.Admin.Controllers
             return View(productVM);
         }
 
-        // API Calls here
-        #region
         [HttpPost]
         [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Product product)
+        {
+            if (ModelState.IsValid)         // Checks all validations in the model
+            {
+                if (product.Id == 0)
+                {
+                    _unitOfWork.Product.Add(product);
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(product);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));         // To see all the categories
+            }
+            return View(product);
+        }
+
+        // API Calls here
+        #region
+        [HttpGet]
         public IActionResult GetAll()
         {
             var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
