@@ -1,4 +1,6 @@
-﻿using AngelasBookStore.Models;
+﻿using AngelasBooks.DataAccess.Repository.IRepository;
+using AngelasBooks.Models;
+using AngelasBookStore.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -13,15 +15,18 @@ namespace AngelasBookStore.Area.Customer.Controllers
     public class HomeController : Controller     
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IUnitOfWork _unitOfWork;               // Added based on the comparison with the provided repository
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IUnitOfWork unitOfWork)           // Added IUnitOfWork unitOfWork based on the comparison with the provided repository
         {
             _logger = logger;
+            _unitOfWork = unitOfWork;           // Added based on the comparison with the provided repository
         }
 
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");        // Added based on the comparison with the provided repository
+            return View(productList);
         }
 
         public IActionResult Privacy()

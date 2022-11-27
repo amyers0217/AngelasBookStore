@@ -264,3 +264,7 @@
 
 - I changed how the Home Index page looks as well
 	- Removed the "Learn More" link and added some more info
+
+- I tried to add a new product to the product page but it wouldn't allow me to because of the two required fields
+	- Category type and Cover Type
+	- I will have to look through the code and compare with the repository that was provided to see what I am missing
