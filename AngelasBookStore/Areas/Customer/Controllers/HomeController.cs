@@ -15,18 +15,18 @@ namespace AngelasBookStore.Area.Customer.Controllers
     public class HomeController : Controller     
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IUnitOfWork _unitOfWork;               // Added based on the comparison with the provided repository
+        //private readonly IUnitOfWork _unitOfWork;               // Added based on the comparison with the provided repository
 
-        public HomeController(ILogger<HomeController> logger, IUnitOfWork unitOfWork)           // Added IUnitOfWork unitOfWork based on the comparison with the provided repository
+        public HomeController(ILogger<HomeController> logger)          // Added IUnitOfWork unitOfWork based on the comparison with the provided repository
         {
             _logger = logger;
-            _unitOfWork = unitOfWork;           // Added based on the comparison with the provided repository
+            //_unitOfWork = unitOfWork;           // Added based on the comparison with the provided repository
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");        // Added based on the comparison with the provided repository
-            return View(productList);
+            //IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");        // Added based on the comparison with the provided repository
+            return View();
         }
 
         public IActionResult Privacy()

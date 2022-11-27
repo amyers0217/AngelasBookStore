@@ -268,3 +268,14 @@
 - I tried to add a new product to the product page but it wouldn't allow me to because of the two required fields
 	- Category type and Cover Type
 	- I will have to look through the code and compare with the repository that was provided to see what I am missing
+
+3:22PM
+- Made some code changes to the HomeController based off of comparing the provided repository to my own code
+	- Referencing IUnitOfWork
+	- Referencing Product and productList
+	- Wondering if this will allow me to create a new product and post it to the database?
+	- These changes threw and exception error... I will probably have to change some of the other files for this not to be an issue
+- I added to items to Cover Type
+	- Hardcover
+	- Paperback
+	- But they still do not show up in the list when adding a new product...
