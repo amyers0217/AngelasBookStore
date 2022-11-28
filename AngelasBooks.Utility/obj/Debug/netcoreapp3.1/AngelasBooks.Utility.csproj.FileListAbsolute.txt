@@ -20,6 +20,7 @@ C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.Utility\obj\Debug\ne
 C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Utility\bin\Debug\netcoreapp3.1\AngelasBooks.Utility.deps.json
 C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Utility\bin\Debug\netcoreapp3.1\AngelasBooks.Utility.dll
 C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Utility\bin\Debug\netcoreapp3.1\AngelasBooks.Utility.pdb
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Utility\obj\Debug\netcoreapp3.1\AngelasBooks.Utility.csproj.AssemblyReference.cache
 C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Utility\obj\Debug\netcoreapp3.1\AngelasBooks.Utility.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Utility\obj\Debug\netcoreapp3.1\AngelasBooks.Utility.AssemblyInfoInputs.cache
 C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Utility\obj\Debug\netcoreapp3.1\AngelasBooks.Utility.AssemblyInfo.cs
