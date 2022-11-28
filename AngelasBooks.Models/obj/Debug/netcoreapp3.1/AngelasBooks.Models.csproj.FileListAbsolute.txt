@@ -16,3 +16,12 @@ C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\net
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.csproj.CoreCompileInputs.cache
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.dll
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.pdb
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Models\bin\Debug\netcoreapp3.1\AngelasBooks.Models.deps.json
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Models\bin\Debug\netcoreapp3.1\AngelasBooks.Models.dll
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Models\bin\Debug\netcoreapp3.1\AngelasBooks.Models.pdb
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.AssemblyInfoInputs.cache
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.AssemblyInfo.cs
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.csproj.CoreCompileInputs.cache
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.dll
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.pdb

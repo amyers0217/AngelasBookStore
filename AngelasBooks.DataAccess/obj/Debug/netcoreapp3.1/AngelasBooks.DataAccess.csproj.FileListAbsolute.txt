@@ -28,3 +28,18 @@ C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug\netcoreapp3.1\AngelasBooks.DataAccess.csproj.CopyComplete
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug\netcoreapp3.1\AngelasBooks.DataAccess.dll
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug\netcoreapp3.1\AngelasBooks.DataAccess.pdb
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\bin\Debug\netcoreapp3.1\AngelasBooks.DataAccess.deps.json
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\bin\Debug\netcoreapp3.1\AngelasBooks.DataAccess.dll
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\bin\Debug\netcoreapp3.1\AngelasBooks.DataAccess.pdb
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\bin\Debug\netcoreapp3.1\AngelasBooks.Models.dll
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\bin\Debug\netcoreapp3.1\AngelasBooks.Utility.dll
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\bin\Debug\netcoreapp3.1\AngelasBooks.Models.pdb
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\bin\Debug\netcoreapp3.1\AngelasBooks.Utility.pdb
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug\netcoreapp3.1\AngelasBooks.DataAccess.csproj.AssemblyReference.cache
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug\netcoreapp3.1\AngelasBooks.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug\netcoreapp3.1\AngelasBooks.DataAccess.AssemblyInfoInputs.cache
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug\netcoreapp3.1\AngelasBooks.DataAccess.AssemblyInfo.cs
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug\netcoreapp3.1\AngelasBooks.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug\netcoreapp3.1\AngelasBooks.DataAccess.csproj.CopyComplete
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug\netcoreapp3.1\AngelasBooks.DataAccess.dll
+C:\Users\W0796187\Source\Repos\AngelasBookStore\AngelasBooks.DataAccess\obj\Debug\netcoreapp3.1\AngelasBooks.DataAccess.pdb

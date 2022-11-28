@@ -287,3 +287,9 @@
 	- Will ask Andrew in class tomorrow
 - I added two categories to the Category List but they are not showing in the web app
 - The categories I added to Category List are also being displayed under Cover Type... not sure why this is happening?
+
+// 2022-11-28 12:16PM
+- Cloned repository from GitHub
+- Cleaned and built the solution (both were a successful)
+- App ran in the browser with no issues
+	- Still having to figure out why the database is not loading/showing in the browser
