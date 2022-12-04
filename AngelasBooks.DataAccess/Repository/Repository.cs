@@ -40,13 +40,13 @@ namespace AngelasBooks.DataAccess.Repository
 
             if (includeProperties != null)
             {
-                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                foreach (var includeProp in includeProperties.Split(new char[] {  ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
                     query = query.Include(includeProp);
                 }
             }
 
-            if (orderBy != null)
+            if(orderBy != null)
             {
                 return orderBy(query).ToList();
             }

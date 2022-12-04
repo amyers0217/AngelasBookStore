@@ -8,10 +8,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace AngelasBookStore
 {
@@ -33,8 +29,8 @@ namespace AngelasBookStore
 
             services.AddDefaultIdentity<IdentityUser>()                         // Removed this part of the code based off of the assignment steps... options => options.SignIn.RequireConfirmedAccount = true
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddControllersWithViews();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddControllersWithViews();
             services.AddRazorPages();
         }
 

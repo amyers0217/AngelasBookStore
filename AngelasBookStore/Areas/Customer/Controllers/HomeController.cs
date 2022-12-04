@@ -1,6 +1,7 @@
 ﻿using AngelasBooks.DataAccess.Repository.IRepository;
 using AngelasBooks.Models;
 using AngelasBooks.Models.ViewModels;
+using AngelasBookStore.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -25,8 +26,8 @@ namespace AngelasBookStore.Area.Customer.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");        // Added based on the comparison with the provided repository
-            return View();
+            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");        // Added based on the comparison with the provided repository
+            return View(productList);
         }
 
         public IActionResult Privacy()
@@ -37,7 +38,7 @@ namespace AngelasBookStore.Area.Customer.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new Models.ViewModels.ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
