@@ -21,13 +21,13 @@ using AngelasBookStore;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBookStore\Views\_ViewImports.cshtml"
-using AngelasBookStore.Models;
+using AngelasBooks.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0f7f35f02e33974f4a390112d69b420cd5680939", @"/Views/Shared/_CreateAndBackToListButton.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4f65e8ded5074e849b35a21172ee207efaac92fe", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1716b3f14bf223270b5356d3af70f7d0ff7c22d1", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__CreateAndBackToListButton : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -57,7 +57,7 @@ using AngelasBookStore.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<div class=\"row\">\r\n    <div class=\"col\">\r\n        <button type=\"submit\" class=\"btn btn-primary form-control\">Create</button>\r\n    </div>\r\n    <div class=\"col\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f7f35f02e33974f4a390112d69b420cd56809394071", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f7f35f02e33974f4a390112d69b420cd56809394067", async() => {
                 WriteLiteral("Back to List");
             }
             );

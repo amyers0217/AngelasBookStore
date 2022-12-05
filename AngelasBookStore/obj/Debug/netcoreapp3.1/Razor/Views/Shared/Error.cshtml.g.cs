@@ -21,13 +21,13 @@ using AngelasBookStore;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBookStore\Views\_ViewImports.cshtml"
-using AngelasBookStore.Models;
+using AngelasBooks.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"39e81ebf65e79e1d8021c785cc2a89ec3cc9e4db", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4f65e8ded5074e849b35a21172ee207efaac92fe", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1716b3f14bf223270b5356d3af70f7d0ff7c22d1", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<AngelasBookStore.Models.ViewModels.ErrorViewModel>
     {
         #pragma warning disable 1998

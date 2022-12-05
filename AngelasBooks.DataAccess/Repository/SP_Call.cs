@@ -31,11 +31,9 @@ namespace AngelasBooks.DataAccess.Repository
 
         public void Execute(string procedureName, DynamicParameters param = null)
         {
-            using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
-            {
-                sqlCon.Open();
-                sqlCon.Execute(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
-            }
+            using SqlConnection sqlCon = new SqlConnection(ConnectionString);
+            sqlCon.Open();
+            sqlCon.Execute(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
         }
 
         public IEnumerable<T> List<T>(string procedureName, DynamicParameters param = null)
