@@ -11393,25 +11393,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\The Rig\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\W0796187\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\The Rig\\source\\repos\\AngelasBookStore\\AngelasBookStore\\AngelasBookStore.csproj",
+      "projectUniqueName": "C:\\Users\\W0796187\\Source\\Repos\\AngelasBookStore\\AngelasBookStore\\AngelasBookStore.csproj",
       "projectName": "AngelasBookStore",
-      "projectPath": "C:\\Users\\The Rig\\source\\repos\\AngelasBookStore\\AngelasBookStore\\AngelasBookStore.csproj",
-      "packagesPath": "C:\\Users\\The Rig\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\The Rig\\source\\repos\\AngelasBookStore\\AngelasBookStore\\obj\\",
+      "projectPath": "C:\\Users\\W0796187\\Source\\Repos\\AngelasBookStore\\AngelasBookStore\\AngelasBookStore.csproj",
+      "packagesPath": "C:\\Users\\W0796187\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\W0796187\\Source\\Repos\\AngelasBookStore\\AngelasBookStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\The Rig\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\W0796187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -11424,14 +11426,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\The Rig\\source\\repos\\AngelasBookStore\\AngelasBooks.DataAccess\\AngelasBooks.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\The Rig\\source\\repos\\AngelasBookStore\\AngelasBooks.DataAccess\\AngelasBooks.DataAccess.csproj"
+            "C:\\Users\\W0796187\\Source\\Repos\\AngelasBookStore\\AngelasBooks.DataAccess\\AngelasBooks.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\W0796187\\Source\\Repos\\AngelasBookStore\\AngelasBooks.DataAccess\\AngelasBooks.DataAccess.csproj"
             },
-            "C:\\Users\\The Rig\\source\\repos\\AngelasBookStore\\AngelasBooks.Models\\AngelasBooks.Models.csproj": {
-              "projectPath": "C:\\Users\\The Rig\\source\\repos\\AngelasBookStore\\AngelasBooks.Models\\AngelasBooks.Models.csproj"
+            "C:\\Users\\W0796187\\Source\\Repos\\AngelasBookStore\\AngelasBooks.Models\\AngelasBooks.Models.csproj": {
+              "projectPath": "C:\\Users\\W0796187\\Source\\Repos\\AngelasBookStore\\AngelasBooks.Models\\AngelasBooks.Models.csproj"
             },
-            "C:\\Users\\The Rig\\source\\repos\\AngelasBookStore\\AngelasBooks.Utility\\AngelasBooks.Utility.csproj": {
-              "projectPath": "C:\\Users\\The Rig\\source\\repos\\AngelasBookStore\\AngelasBooks.Utility\\AngelasBooks.Utility.csproj"
+            "C:\\Users\\W0796187\\Source\\Repos\\AngelasBookStore\\AngelasBooks.Utility\\AngelasBooks.Utility.csproj": {
+              "projectPath": "C:\\Users\\W0796187\\Source\\Repos\\AngelasBookStore\\AngelasBooks.Utility\\AngelasBooks.Utility.csproj"
             }
           }
         }
@@ -11497,6 +11499,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.25, 3.1.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -11505,7 +11513,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
