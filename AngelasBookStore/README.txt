@@ -293,3 +293,20 @@
 - Cleaned and built the solution (both were a successful)
 - App ran in the browser with no issues
 	- Still having to figure out why the database is not loading/showing in the browser
+
+// 2022-12-04
+- Continuing where I left off from last class with comparing my code to the given repository
+- So far I have found a few things I needed to change
+- I am getting an exception error when running the app
+	- I went back and looked through all of the files and I am not sure exactly what I changed but the app seems to be running ok now
+
+// 2022-12-05 10:22AM
+- This morning the app is running in the browser but I cannot add a category, cover type or product
+- I am still having exceptions thrown on the SP_Call.cs 
+	- Error coming from this part of the code:
+	using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
+            {
+                sqlCon.Open();
+                sqlCon.Execute(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
+            }
+	- Not sure how to fix this error... I have looked through the repository of the finished app numerous times already and everything seems to be matching
