@@ -310,3 +310,8 @@
                 sqlCon.Execute(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
             }
 	- Not sure how to fix this error... I have looked through the repository of the finished app numerous times already and everything seems to be matching
+
+// 2022-12-09 11:53AM
+- Forgot to record that I was starting to work on finishing the assignment
+- Cloned the repository from GitHub
+- Working through comparing the finished repository to my code to try and find the exception error I am still getting
