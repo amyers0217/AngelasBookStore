@@ -323,3 +323,6 @@
 - Areas/Admin/Controllers Files: All of these files have been compared
 - In the CoverType abd Product Upsert I was missing the ; after the @Model
 - In the _ViewImports.cshtml files I had @using AngelasBooks.Models instead of @using AngelasBookStore.Models (Which is what it should be)...
+
+2:08PM
+- Having issues with the main page index... the first <div> section is throwing an exception

@@ -60,9 +60,8 @@ namespace AngelasBooks.DataAccess.Repository
                 {
                     return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(item1, item2);
                 }
+                return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(new List<T1>(), new List<T2>());
             }
-
-            return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(new List<T1>(), new List<T2>());
         }
 
         public T OneRecord<T>(string procedureName, DynamicParameters param = null)

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AngelasBooks.DataAccess.Repository
+namespace AngelasBooks.DataAccess.Repository.IRepository
 {
     public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
@@ -24,7 +24,7 @@ namespace AngelasBooks.DataAccess.Repository
             if (objFromDb != null)       // Saves changes if not null
             {
                 objFromDb.Name = category.Name;
-                //_db.SaveChanges();
+                _db.SaveChanges();
             }
         }
     }
