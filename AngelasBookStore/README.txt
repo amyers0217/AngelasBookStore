@@ -326,3 +326,10 @@
 
 2:08PM
 - Having issues with the main page index... the first <div> section is throwing an exception
+
+3:06PM
+- Finishing Assignment 2 and going to submit
+- I am able to see the product list on the main page but I can't see any of the products I created
+- I am also able to see the cover type creates but I can't see the category creates.
+	- Not sure where the issues are coming from for these
+- Really wish I could have got all this working!
