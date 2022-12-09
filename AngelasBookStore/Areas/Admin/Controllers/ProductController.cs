@@ -60,10 +60,24 @@ namespace AngelasBookStore.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(ProductVM productVM)
+        public IActionResult Upsert(Product product)
         {
             if (ModelState.IsValid)         // Checks all validations in the model
             {
+                if (product.Id == 0)
+                {
+                    _unitOfWork.Product.Add(product);
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(product);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(product);
+        }
+            /*{
                 string webRootPath = _hostEnvironment.WebRootPath;
                 var files = HttpContext.Request.Form.Files;
                 if (files.Count > 0)
@@ -126,14 +140,14 @@ namespace AngelasBookStore.Areas.Admin.Controllers
                 }
             }
             return View(productVM);
-        }
+        }*/
 
         // API Calls here
         #region
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
+            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category, CoverType");
             return Json(new { data = allObj });
         }
 
@@ -145,12 +159,12 @@ namespace AngelasBookStore.Areas.Admin.Controllers
             {
                 return Json(new { success = false, message = "Error while deleting" });
             }
-            string webRootPath = _hostEnvironment.WebRootPath;
-            var imagePath = Path.Combine(webRootPath, objFromDb.ImageUrl.TrimStart('\\'));
-            if (System.IO.File.Exists(imagePath))
-            {
-                System.IO.File.Delete(imagePath);
-            }
+            //string webRootPath = _hostEnvironment.WebRootPath;
+            //var imagePath = Path.Combine(webRootPath, objFromDb.ImageUrl.TrimStart('\\'));
+            //if (System.IO.File.Exists(imagePath))
+            //{
+            //    System.IO.File.Delete(imagePath);
+            //}
             _unitOfWork.Product.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });

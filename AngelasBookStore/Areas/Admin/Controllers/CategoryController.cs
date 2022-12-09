@@ -45,9 +45,9 @@ namespace AngelasBookStore.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Category category)
         {
-            if (ModelState.IsValid)
+            if(ModelState.IsValid)
             {
-                if (category.Id == 0)
+                if(category.Id == 0)
                 {
                     _unitOfWork.Category.Add(category);
                 }

@@ -26,4 +26,3 @@ C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\net
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.csproj.CoreCompileInputs.cache
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.dll
 C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.pdb
-C:\Users\The Rig\source\repos\AngelasBookStore\AngelasBooks.Models\obj\Debug\netcoreapp3.1\AngelasBooks.Models.csproj.AssemblyReference.cache
