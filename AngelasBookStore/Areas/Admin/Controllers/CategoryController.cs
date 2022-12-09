@@ -26,14 +26,14 @@ namespace AngelasBookStore.Areas.Admin.Controllers
         public IActionResult Upsert(int? id)
         {
             Category category = new Category();
-            if (id == null)
+            if(id == null)
             {
                 // This is for create
                 return View(category);
             }
             // This is for edit
             category = _unitOfWork.Category.Get(id.GetValueOrDefault());
-            if (category == null)
+            if(category == null)
             {
                 return NotFound();
             }

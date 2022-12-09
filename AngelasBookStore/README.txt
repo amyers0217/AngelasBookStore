@@ -315,3 +315,11 @@
 - Forgot to record that I was starting to work on finishing the assignment
 - Cloned the repository from GitHub
 - Working through comparing the finished repository to my code to try and find the exception error I am still getting
+
+12:34PM
+- There were a few things I changed that were different with my code and the completed repository
+	- I noticed the one file was parameterName when it should have been parametername; this hasn't fixed the issue yet though
+- Going to look through all of the code in the completed app to see if I am missing anything
+- Areas/Admin/Controllers Files: All of these files have been compared
+- In the CoverType abd Product Upsert I was missing the ; after the @Model
+- In the _ViewImports.cshtml files I had @using AngelasBooks.Models instead of @using AngelasBookStore.Models (Which is what it should be)...

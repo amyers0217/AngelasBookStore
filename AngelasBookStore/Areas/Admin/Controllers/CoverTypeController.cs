@@ -26,17 +26,14 @@ namespace AngelasBookStore.Areas.Admin.Controllers
         public IActionResult Upsert(int? id)
         {
             CoverType coverType = new CoverType();
-            if (id == null)
+            if(id == null)
             {
                 // This is for create
                 return View(coverType);
             }
             // This is for edit
-            var parameter = new DynamicParameters();
-            parameter.Add("@Id, id");
-            coverType = _unitOfWork.SP_Call.OneRecord<CoverType>(SD.Proc_CoverType_Get, parameter);     // Added based off of the repository comparison
-            // coverType = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
-            if (coverType == null)
+            coverType = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
+            if(coverType == null)
             {
                 return NotFound();
             }
@@ -50,19 +47,13 @@ namespace AngelasBookStore.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                var parameter = new DynamicParameters();        // Added based off of comparison
-                parameter.Add("@Name, coverType.Name");
-
                 if (coverType.Id == 0)
                 {
-                    _unitOfWork.SP_Call.Execute(SD.Proc_CoverType_Create, parameter);       // Added based off of comparison
-                    // _unitOfWork.CoverType.Add(coverType);
+                   _unitOfWork.CoverType.Add(coverType);
                 }
                 else
                 {
-                    parameter.Add("@Id", coverType.Id);                                     // Added based off of comparison   
-                    _unitOfWork.SP_Call.Execute(SD.Proc_CoverType_Update, parameter);
-                    // _unitOfWork.CoverType.Update(coverType);
+                    _unitOfWork.CoverType.Update(coverType);
                 }
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
@@ -75,24 +66,19 @@ namespace AngelasBookStore.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            // var allObj = _unitOfWork.CoverType.GetAll();
-            var allObj = _unitOfWork.SP_Call.List<CoverType>(SD.Proc_CoverType_GetAll, null);           // Added based off of comparison
+            var allObj = _unitOfWork.CoverType.GetAll();
             return Json(new { data = allObj });
         }
 
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var parameter = new DynamicParameters();                                                            // Added based off of comparison
-            parameter.Add("@Id", id);
-            var objFromDb = _unitOfWork.SP_Call.OneRecord<CoverType>(SD.Proc_CoverType_Get, parameter);
-            // var objFromDb = _unitOfWork.CoverType.Get(id);
+            var objFromDb = _unitOfWork.CoverType.Get(id);
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });
             }
-            _unitOfWork.SP_Call.Execute(SD.Proc_CoverType_Delete, parameter);
-            // _unitOfWork.CoverType.Remove(objFromDb);
+            _unitOfWork.CoverType.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });
         }
